@@ -1,0 +1,196 @@
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between
+;
+align-items: center;
+padding: 20px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+h2 {
+text-align: center;
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+.banner {
+background-image: url("coffee-shop-banner.jpg");
+background-size: cover;
+background-position: center;
+height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #fff;
+text-align: center;
+}
+
+.banner h1 {
+font-size: 4rem;
+margin-bottom: 20px;
+}
+
+.banner p {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.btn {
+display: inline-block;
+background-color: #fff;
+color: #333;
+padding: 10px 20px;
+border-radius: 4px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+background-color: #333;
+color: #fff;
+}
+
+.menu-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.menu-item img {
+max-width: 100%;
+}
+
+.menu-item h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.menu-item p {
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.price {
+font-size: 1.5rem;
+font-weight: bold;
+color: #333;
+margin-top: auto;
+}
+
+.about-info {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 40px;
+}
+
+.about-info img {
+max-width: 100%;
+margin-right: 20px;
+}
+
+.about-info p {
+font-size: 1.2rem;
+margin: 0;
+}
+
+.about-info h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.location {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.location-info {
+flex: 1;
+margin-right: 40px;
+margin-bottom: 40px;
+}
+
+.location-info h3 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+
+.location-info p {
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.location-info ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.location-info ul li {
+font-size: 1.2rem;
+margin-bottom: 5px;
+}
+
+.location-map {
+flex: 1;
+height: 400px;
+margin-bottom: 40px;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.contact-form input {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 4px
+
+
+
+

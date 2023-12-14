@@ -1,0 +1,46 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 70%;
+  margin-bottom: 20px;
+}
+
+.profile h2 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.profile p {
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.profile ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.profile li {
+  margin-bottom: 10px;
+}
+
+.profile li strong {
+  font-weight: bold;
+}
+
+.profile li:last-child {
+  margin-bottom: 0;
+}
